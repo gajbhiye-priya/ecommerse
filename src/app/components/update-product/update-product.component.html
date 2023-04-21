@@ -1,0 +1,25 @@
+<div class="seller">
+
+    <div class="sign-up">
+        <!-- <p>{{productMessage}}</p> -->
+        <h1>Update Product</h1>
+        <form class="form">
+         <span class="enter">
+            <input class="field" type="text" placeholder="Enter productName" [(ngModel)]="data.productName" name="productName">
+            <input class="field" type="text" placeholder="Enter price" [(ngModel)]="data.price" name="price">
+            <input class="field" type="text" placeholder="Enter ProductCategory" [(ngModel)]="data.ProductCategory" name="ProductCategory">
+             <input class="field" type="text" placeholder="Enter description" [(ngModel)]="data.description" name="description"> 
+             <input class="field" type="text" placeholder="Enter imageUrl" [(ngModel)]="data.imageUrl" name="imageUrl"> 
+            </span>
+            <button class="buttons" type="button" (click) ="updateProduct(data.productId)"> Update Product</button> 
+           
+            <!-- <a (click)="openLogin()"> already have an account? click for  login </a> -->
+           
+        </form> 
+
+      
+    </div>
+
+
+</div>
+

@@ -1,0 +1,39 @@
+<div class="seller">
+
+    <div *ngIf="!showLogin" class="sign-up">
+        <h1>Seller sign-up</h1>
+        <form class="form">
+         <span class="enter">
+            <input class="field" type="text" placeholder="Enter your fullName" [(ngModel)]="signIn.fullName" name="fullName">
+            <input class="field" type="text" placeholder="Enter your contact number" [(ngModel)]="signIn.contactNumber" name="contactNumber">
+            <input class="field" type="text" placeholder="Enter your email" [(ngModel)]="signIn.email" name="email">
+             <input class="field" type="password" placeholder="Enter your password" [(ngModel)]="signIn.password" name="password"> 
+        </span>
+            <button class="buttons" type="button" (click) ="signUp()"> Sign up</button>
+            <a (click)="openLogin()"> already have an account? click for  login </a>
+            <!-- <button class="buttons" type="button" (click) ="clear()"> Clear</button> -->
+        </form> 
+
+      
+    </div>
+
+
+    
+    <div *ngIf="showLogin" class="sign-up">
+        <h1>Seller Login</h1>
+        <p>{{authError}}</p>
+        <form class="form">
+         <span class="enter">
+          
+            <input class="field" type="text" placeholder="Enter your email" [(ngModel)]="login.email" name="email">
+             <input class="field" type="password" placeholder="Enter your password" [(ngModel)]="login.password" name="password"> 
+        </span>
+            <button class="buttons" type="button" (click) ="logIn()"> login </button>
+            <a (click)="opensignUp()"> Don't have an account? click for  signUp </a>
+            <!-- <button class="buttons" type="button" (click) ="clear()"> Clear</button> -->
+        </form>
+
+      
+    </div>
+</div>
+

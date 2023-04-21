@@ -1,0 +1,325 @@
+{
+  "signIn": [
+    {
+      "fullName": "Priya Gajbhiye",
+      "contactNumber": "848306567",
+      "email": "priya@123",
+      "password": "priya",
+      "id": 1
+    },
+    {
+      "fullName": "kiran Gajbhiye",
+      "contactNumber": "5678989",
+      "email": "kiran@123",
+      "password": "kiran",
+      "id": 2
+    },
+    {
+      "fullName": "Harshada Ramteke",
+      "contactNumber": "976546522",
+      "email": "harshda",
+      "password": "harshu",
+      "id": 3
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "fullName": "sandeep",
+      "contactNumber": "45",
+      "email": "wasdfvb",
+      "password": "asd",
+      "id": 12
+    },
+    {
+      "fullName": "diksha",
+      "contactNumber": "235467",
+      "email": "asdf",
+      "password": "asdfg",
+      "id": 13
+    },
+    {
+      "fullName": "prabha",
+      "contactNumber": "567356",
+      "email": "asdfgh",
+      "password": "sdff",
+      "id": 14
+    },
+    {
+      "fullName": "prabha",
+      "contactNumber": "567356",
+      "email": "asdfgh",
+      "password": "sdff",
+      "id": 15
+    },
+    {
+      "fullName": "prabha",
+      "contactNumber": "567356",
+      "email": "asdfgh",
+      "password": "sdff",
+      "id": 16
+    },
+    {
+      "fullName": "prabha",
+      "contactNumber": "567356",
+      "email": "asdfgh",
+      "password": "sdff",
+      "id": 17
+    },
+    {
+      "fullName": "prabha",
+      "contactNumber": "567356",
+      "email": "asdfgh",
+      "password": "sdff",
+      "id": 18
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 20
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 21
+    },
+    {
+      "fullName": "",
+      "contactNumber": "",
+      "email": "",
+      "password": "",
+      "id": 22
+    },
+    {
+      "fullName": "ewgsedgfg",
+      "contactNumber": "345",
+      "email": "dgfg",
+      "password": "df",
+      "id": 23
+    },
+    {
+      "fullName": "priya",
+      "contactNumber": "34",
+      "email": "sd",
+      "password": "dvf ",
+      "id": 24
+    },
+    {
+      "fullName": "sakhu",
+      "contactNumber": "3567",
+      "email": "sdfggnh",
+      "password": "xcbnb",
+      "id": 25
+    },
+    {
+      "fullName": "shikha",
+      "contactNumber": "3454",
+      "email": "szdxvcb ",
+      "password": "dxfcvbn",
+      "id": 26
+    },
+    {
+      "fullName": "priya ",
+      "contactNumber": "23445",
+      "email": "sdcv",
+      "password": "sdxcv",
+      "id": 27
+    },
+    {
+      "fullName": "Priya Gautam Gajbhiye",
+      "contactNumber": "08483044173",
+      "email": "priyaggajbhiye@gmail.com",
+      "password": "dgfh",
+      "id": 28
+    }
+  ],
+  "product": [
+    {
+      "productName": "Mobile",
+      "price": "5000",
+      "ProductCategory": "samsung",
+      "description": "nice",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61rWSmm-0lL._AC_UL320_.jpg",
+      "id": 21
+    },
+    {
+      "productName": "Remote",
+      "price": "5000",
+      "ProductCategory": "dish",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61rWSmm-0lL._AC_UL320_.jpg",
+      "id": 22
+    },
+    {
+      "productName": "Headphone",
+      "price": "5000",
+      "ProductCategory": "wire-earphones",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51fMwaNRSJL._AC_UY218_.jpg",
+      "id": 23
+    },
+    {
+      "productName": "Headphone",
+      "price": "5000",
+      "ProductCategory": "Earburds",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61eTrIO5GcL._AC_UY218_.jpg",
+      "id": 24
+    },
+    {
+      "productName": "Laptop",
+      "price": "5000",
+      "ProductCategory": "Lenovo",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61q6x-ll5FL._SY450_.jpg",
+      "id": 25
+    },
+    {
+      "productName": "Laptop",
+      "price": "5000",
+      "ProductCategory": "dell",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51edUn7YlnL._AC_UY218_.jpg",
+      "id": 26
+    },
+    {
+      "productName": "Laptop",
+      "price": "5000",
+      "ProductCategory": "Asus",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71WuDXpTAlL._AC_UY218_.jpg",
+      "id": 27
+    },
+    {
+      "productName": "Headphones",
+      "price": "5000",
+      "ProductCategory": "earburds",
+      "description": "use prperly",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71GFeaOKepL._AC_UY218_.jpg",
+      "id": 28
+    },
+    {
+      "productName": "Headphones",
+      "price": "5000",
+      "ProductCategory": "earburds",
+      "description": "Lenovo IdeaPad Slim 5 Intel Core i5 11th",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61I7ZE-blvL._AC_UY218_.jpg",
+      "id": 29
+    }
+  ],
+  "userForm": [
+    {
+      "userName": "priya",
+      "contactNumber": "234t",
+      "email": "priya",
+      "password": "abc",
+      "id": 1
+    },
+    {
+      "userName": "Sandeep ",
+      "contactNumber": "2345",
+      "email": "sandy",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "userName": "Kiran Gajbhiye",
+      "contactNumber": "9087654334",
+      "email": "kiran",
+      "password": "abc",
+      "id": 4
+    },
+    {
+      "userName": "Harshda Gajbhiye",
+      "contactNumber": "908754457",
+      "email": "harshada",
+      "password": "harshu",
+      "id": 5
+    },
+    {
+      "userName": "Diksha Gajbhiye",
+      "contactNumber": "9876543",
+      "email": "dikshu",
+      "password": "xyz",
+      "id": 10
+    },
+    {
+      "userName": "gautam",
+      "contactNumber": "98765",
+      "email": "gautam",
+      "password": "abc",
+      "id": 12
+    },
+    {
+      "userName": "dgfvnb",
+      "contactNumber": "dgfn",
+      "email": "dgf",
+      "password": "dff",
+      "id": 13
+    }
+  ]
+}

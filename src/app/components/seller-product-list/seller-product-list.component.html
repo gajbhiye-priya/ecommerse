@@ -1,0 +1,54 @@
+
+<div class="data">
+    <h3> Product Details! </h3>
+   
+    <!-- <button class ="login" (click)="onClick()">Add Product</button>  -->
+</div>
+
+
+<h4> {{deleteMessage}}</h4>
+<div class="loader" *ngIf="isLoading"> loading page... </div>
+<table *ngIf="!isLoading && getData.length>0" >
+  <tr>
+    <th>id</th>
+      <th>ProductName</th>
+      <th>Price</th>
+      <th>ProductCategory</th>
+      <th>Description</th>
+      <th>ImageUrl</th>
+      <th>Edit</th>
+      <th>Delete</th>
+  </tr>
+
+
+  <tr *ngFor="let data of getData">
+    <td> {{data.id}}  </td>
+    <td> {{data.productName}}  </td>
+    <td> {{data.price}} </td>
+    <td> {{data.ProductCategory}}  </td>
+    <td> {{data.description}}  </td>
+    <td> {{data.imageUrl}}  </td>
+
+
+
+     <!-- <td> 
+      <button class="submit" type="submit" (click)="editUser(data.id)"> Edit</button>
+    </td> -->
+
+    <td> 
+        <a routerLink="/update-product/{{data.id}}">  <fa-icon [icon]="iconEdit"></fa-icon></a> 
+       
+    </td> 
+    <td> 
+        <fa-icon (click)="deleteProduct(data.id)" [icon]="icon"></fa-icon>
+      <!-- <button class="submit" type="submit" (click)="deleteProduct(data.id)">delete </button> -->
+    </td> 
+
+  </tr>
+  
+</table>
+
+<app-seller-add-product (newProduct)="addItem($event)"></app-seller-add-product>
+
+
+

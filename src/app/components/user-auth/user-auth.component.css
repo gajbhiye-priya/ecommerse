@@ -1,0 +1,61 @@
+.seller{
+    width: 70%;
+    height: 700px;
+    display: flex;
+    /* align-items: baseline; */
+    justify-content: space-around;
+    margin: 70px;
+}
+.sign-up{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-left: 500px;
+    color: #a15ce5;
+}
+.form{
+
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    height: 600px;
+    padding: 20px;
+}
+
+.buttons{
+    background: linear-gradient( to top right, #0dcaf0 10%, #a15ce5 50%, #a15ce5 50%, #e54a8a 100%);
+  font-family: bold;
+  font-size: larger;
+  border: none;
+  border-radius: 30px;
+  padding: 10px  12px;
+  color: white;
+  margin: 20px 10px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  margin-left: 600px;
+  
+}
+
+.field{
+    margin-left: 30px;
+    background-color: transparent;
+}
+
+p{
+    color: red;
+}
+
+.msg{
+    color: green;
+    width :30%;
+    height: 15%;
+    font-weight: 600;
+    /* box-shadow: 1px 8px 16px 0px rgb(22 21 21 / 20%); */
+}

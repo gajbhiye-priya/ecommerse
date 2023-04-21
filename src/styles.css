@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+html,body{
+    height:100%;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    font-family: sans-serif;
+  
+  }
+
+  
+  input{
+
+    /* border-top-style: groove;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove; */
+    width: 50%;
+    padding: 10px;
+    /* border-bottom-color: aliceblue;
+    border-top-color: brown; */
+    font-size: small;
+    border-radius: 10px;
+    border: groove;
+    border-color: rgb(252, 249, 251);
+    margin: 10px;
+  }
+
+  .field{
+
+    text-align: left;
+  }

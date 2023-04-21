@@ -1,0 +1,32 @@
+<div class="seller">
+
+    <div class="sign-up">
+        
+        <!-- <p>
+            Today's item: {{item}}
+          </p> -->
+        <h1>Add New Product</h1>
+        <form class="form">
+         <span class="enter">
+            <input class="field" type="text" placeholder="Enter productName" [(ngModel)]="product.productName" name="productName">
+            <input class="field" type="text" placeholder="Enter price" [(ngModel)]="product.price" name="price">
+            <input class="field" type="text" placeholder="Enter ProductCategory" [(ngModel)]="product.ProductCategory" name="ProductCategory">
+             <input class="field" type="text" placeholder="Enter description" [(ngModel)]="product.description" name="description"> 
+             <input class="field" type="text" placeholder="Enter imageUrl" [(ngModel)]="product.imageUrl" name="imageUrl"> 
+            </span>
+             <button class="buttons" type="button" (click) ="addProduct()"> Add Product</button> 
+            <p>{{productMessage}}</p>
+            <!-- <a (click)="openLogin()"> already have an account? click for  login </a> -->
+
+            <!-- <label for="item-input">Add an item:</label>
+     <input class="field" type="text" id="item-input" #newItem> -->
+     <!-- <button type="button" (click)="addProduct()">Add to parent's list</button> -->
+           
+        </form> 
+
+      
+    </div>
+
+
+</div>
+

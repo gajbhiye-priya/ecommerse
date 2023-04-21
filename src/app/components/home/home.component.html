@@ -1,0 +1,85 @@
+<div class="main">
+    <h1> Trending Products</h1>
+
+
+    <div class="products"  *ngFor="let item of trendingPro">
+        <div class="pro">
+            <a routerLink="/detail-page/{{item.id}}">
+            <img class="img" src="{{item.imageUrl}}" alt=""></a>
+            <span class="product-details">
+                <label> {{item.price}}  </label>
+                <label>{{item.ProductCategory}} </label>
+                <label>{{item.description}} </label>
+                <span class="butt">
+                    <a class="buy" routerLink="/detail-page/{{item.id}}">View details</a>
+                    <a  class="buy"  href=""> Add to cart</a>
+                </span>
+            </span>
+        </div> 
+
+        <div class="pro">
+            <a routerLink="/detail-page/{{item.id}}">
+            <img class="img" src="../../../assets/images/mob1.jpg" alt=""></a>
+            <span class="product-details">
+                <label> Vivo mobile </label>
+                <label>price:14000/ </label>
+                <label> Lenovo IdeaPad Slim 5 Intel
+                    128GB ROM </label>
+                <span class="butt">
+                    <a class="buy" href="">View details</a>
+                    <a class="buy" href=""> Add to cart</a>
+                </span>
+            </span>
+        </div>
+
+         <div class="pro">
+
+            <a routerLink="/detail-page/{{item.id}}">
+                <img class="img" src="../../../assets/images/mob2.jpg" alt=""></a>>
+                <span class="product-details">
+                    <label> Vivo mobile </label>
+                    <label> Memory : 8GB RAM
+                        128GB ROM </label>
+                    <label>price:14000/ </label>
+                    <span class="butt"> 
+                        <a class="buy" href="">View details</a>
+                        <a class="buy" href=""> Add to cart</a>
+                       </span>
+
+                </span>
+            </div>
+            <div class="pro">
+
+                <a routerLink="/detail-page/{{item.id}}">
+
+                <img class="img" src="../../../assets/images/mob3.jpg" alt=""></a>
+                <span class="product-details">
+                    <label> Samsung Galaxy </label>
+                    <label> Memory : 8GB RAM
+                        128GB ROM </label>
+                    <label>price:60000/ </label>
+                    <span class="butt"> 
+                        <a class="buy" href="">View details</a>
+                        <a class="buy" href=""> Add to cart</a>
+                       </span>
+                </span>
+            </div>
+
+            <!-- <div class="pro">
+                <img class="img" src="../../../assets/images/mob4.jpg" alt="">
+                <span class="product-details">
+                    <label> Samsung Galaxy </label>
+                    <label> Memory : 8GB RAM
+                        128GB ROM </label>
+                    <label>price:50000/ </label>
+                    <span class="align"> 
+                        <a href="">View details</a>
+                        <a href=""> Add to cart</a>
+                       </span>
+                </span>
+            </div>   -->
+    </div>
+
+
+
+</div>

@@ -1,0 +1,66 @@
+<div class="main">
+
+    <div class="products" *ngIf="detailPage">
+        <div class="pro">
+            <img class="img" src="{{detailPage.imageUrl}}" alt="">
+            <span class="product-details">
+                   <span>
+                    <label class="label"> ProductName::</label>
+                    <label> {{detailPage.productName}} </label>
+                </span>
+                <span>
+                    <label class="label"> price::</label>
+                    <label> {{detailPage.price}} </label>
+
+                </span>
+                <span>
+                    <label class="label"> ProductCategory::</label>
+                    <label>{{detailPage.ProductCategory}} </label>
+                </span>
+                <span>
+                    <label class="label"> description::</label>
+                    <label>{{detailPage.description}} </label>
+
+                </span>
+               <span class="butt">
+                <button class="buy"> Buy Now</button>
+                
+                <button class="buy" *ngIf= "removeCarts" (click)="removeCart(detailPage.id)"> Remove cart</button>
+                <button class="buy" *ngIf= "!removeCarts" (click)="addToCart()"> Add to cart</button>
+            </span>
+                <div class="quantity">
+                    <button class="buys" (click)="handleQuanty('min')">-</button>
+                    <input type="text" value="{{quantity}}">
+                    <button class="buys" (click)="handleQuanty('plus')">+</button>
+    
+                </div>
+            </span>
+
+            
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 
+    <div class="detail-page">
+        <img class="img" src="../../../assets/images/mob2.jpg" alt="">
+        <div class="product-details">
+            <label> truke BTG Beta with 13mm Titanium Drivers, 38H Playtime, ENC, Gaming Mode, AAC Codec Bluetooth <br>
+                Headset (Black, True Wireless) </label>
+            <label>price:₹899/ </label>
+            <span class="offers"> 
+                  <h3>Available offers</h3>
+                   <span class="bank offer"> 
+                    <h3> Bank Offer </h3>
+                    <label>10% off on Bank of Baroda Credit Card EMI Transactions, up to  <br> ₹2,000 on orders of ₹5,000 and above </label>
+            </span>
+        </span>
+
+        </div>
+    </div> -->
+
+
+</div>

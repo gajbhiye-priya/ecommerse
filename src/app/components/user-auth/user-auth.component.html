@@ -1,0 +1,33 @@
+<div class="seller">
+
+    <div *ngIf="!showLogin"  class="sign-up" >
+        <h1>User sign-up</h1>
+        <form class="form" [formGroup]="userForm">
+         <span class="enter">
+            <input class="field" type="text"  formControlName="userName" placeholder="Enter your userName" >
+            <input class="field" type="text" formControlName="contactNumber" placeholder="Enter your contact number" >
+            <input class="field" type="text" formControlName="email" placeholder="Enter your email" >
+             <input class="field" type="password" formControlName="password" placeholder="Enter your password"> 
+        </span>
+            <button class="buttons" type="button" (click) ="signUp()"> Sign up</button>
+            <a (click)="openLogin()"> already have an account? click for  login </a>
+            <p class="msg">{{sucessMsg}} </p>
+        </form> 
+    </div>
+
+
+    <div *ngIf="showLogin" class="sign-up" >
+        <h1>User Login</h1>
+        <form class="form" [formGroup]="loginForm">
+         <span class="enter">
+            <input class="field" type="text" formControlName="email" placeholder="Enter your email" >
+             <input class="field" type="password" formControlName="password" placeholder="Enter your password"> 
+        </span>
+            <button class="buttons" type="button" (click) ="userlogin()">login </button>
+            <a (click)="opensignUp()"> Don't have an account? click for  signUp </a>
+            <p class="msg">{{sucessMsg}} </p>
+        </form> 
+    </div>
+
+</div>
+
